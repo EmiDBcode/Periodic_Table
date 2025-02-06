@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Script to query element information from the periodic_table database
 # Set PSQL variable for querying the database
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
